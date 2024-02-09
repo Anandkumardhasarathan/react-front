@@ -67,7 +67,7 @@ export const FirstApp=()=>{
        <>
        <BrowserRouter>
             <Routes>
-                    <Route path="/" element={<ButtonAppBar/>}/>
+                    <Route path="/react-front" element={<ButtonAppBar/>}/>
                     <Route path="/student_motivation" element={<Formpage/>}/>
             </Routes>
        </BrowserRouter>
